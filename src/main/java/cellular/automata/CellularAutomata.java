@@ -21,14 +21,14 @@ public class CellularAutomata {
 
     private boolean randomInitialConditions = false;
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws Exception {
         final CellularAutomata ca = new CellularAutomata();
 
         //ca.setRandomInitialConditions(true);
         ca.run();
     }
 
-    public void run() throws InterruptedException {
+    public void run() throws Exception {
         setupCanvas();
 
 //        automatonEvolutionHistoryDrawer.setBoard(buildCellLocations(generateProductionRuleSets().get(30)));
@@ -37,6 +37,14 @@ public class CellularAutomata {
         for (final Map.Entry<Integer, List<Boolean>> ruleSet : generateProductionRuleSets().entrySet()) {
             automatonEvolutionHistoryDrawer.setBoard(buildCellLocations(ruleSet.getValue()));
             automatonEvolutionHistoryDrawer.repaint();
+
+
+
+//            final BufferedImage bufferedImage = new  BufferedImage(1200, 500, BufferedImage.TYPE_INT_RGB);
+//            final Graphics2D graphics = bufferedImage.createGraphics();
+//            automatonEvolutionHistoryDrawer.paint(graphics);
+//            ImageIO.write(bufferedImage, "png", new File("img/" + ruleSet.getKey() + ".png"));
+
             System.out.println(ruleSet.getKey());
             Thread.sleep(1000);
         }
