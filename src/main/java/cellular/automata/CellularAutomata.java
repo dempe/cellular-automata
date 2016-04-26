@@ -40,7 +40,7 @@ public class CellularAutomata {
 
 
 
-//            final BufferedImage bufferedImage = new  BufferedImage(1200, 500, BufferedImage.TYPE_INT_RGB);
+//            final BufferedImage bufferedImage = new  BufferedImage(800, 430, BufferedImage.TYPE_INT_RGB);
 //            final Graphics2D graphics = bufferedImage.createGraphics();
 //            automatonEvolutionHistoryDrawer.paint(graphics);
 //            ImageIO.write(bufferedImage, "png", new File("img/" + ruleSet.getKey() + ".png"));
@@ -115,7 +115,7 @@ public class CellularAutomata {
     private static List<Integer> generateXLocations(final List<Boolean> list) {
         final List<Integer> generation = new ArrayList<>();
 
-        int xpos = STARTING_X_POSITION;
+        int xpos = 0;
         for (final Boolean bool : list) {
             if (bool) {
                 generation.add(xpos);

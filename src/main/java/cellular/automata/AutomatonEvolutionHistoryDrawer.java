@@ -6,8 +6,8 @@ import java.util.List;
 
 public class AutomatonEvolutionHistoryDrawer extends Canvas {
     private static final int CELL_SIZE = 4;
-    private static final int CANVAS_WIDTH = 1200;
-    private static final int CANVAS_HEIGHT = 500;
+    private static final int CANVAS_WIDTH = 800;
+    private static final int CANVAS_HEIGHT = 430;
 
     private List<List<Integer>> board = new ArrayList<>();
 
