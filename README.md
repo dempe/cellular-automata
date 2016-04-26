@@ -2,6 +2,9 @@
 
 Though I am not a fan of the book, this program was inspired by Stephen Wolfram's *A New Kind of Science*.
 
+Each of these 256 cellular automata evolve on a 400 x 800 px plain where each row represents a generation and the initial seed (or the progenitor) is in the center of the first row.
+
+### #0
 ![cellular automata #0](/img/0.png?raw=true "Cellular Automata #0")
 ![cellular automata #1](/img/1.png?raw=true "Cellular Automata 1")
 ![cellular automata #2](/img/2.png?raw=true "Cellular Automata 2")
