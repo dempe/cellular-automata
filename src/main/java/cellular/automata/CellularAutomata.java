@@ -1,6 +1,9 @@
 package cellular.automata;
 
+import javax.imageio.ImageIO;
 import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -40,10 +43,10 @@ public class CellularAutomata {
 
 
 
-//            final BufferedImage bufferedImage = new  BufferedImage(800, 430, BufferedImage.TYPE_INT_RGB);
-//            final Graphics2D graphics = bufferedImage.createGraphics();
-//            automatonEvolutionHistoryDrawer.paint(graphics);
-//            ImageIO.write(bufferedImage, "png", new File("img/" + ruleSet.getKey() + ".png"));
+            final BufferedImage bufferedImage = new  BufferedImage(800, 400, BufferedImage.TYPE_INT_RGB);
+            final Graphics2D graphics = bufferedImage.createGraphics();
+            automatonEvolutionHistoryDrawer.paint(graphics);
+            ImageIO.write(bufferedImage, "png", new File("img/" + ruleSet.getKey() + ".png"));
 
             System.out.println(ruleSet.getKey());
             Thread.sleep(1000);
