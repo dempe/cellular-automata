@@ -24,7 +24,7 @@ public class CellularAutomata {
     public static void main(String[] args) throws InterruptedException {
         final CellularAutomata ca = new CellularAutomata();
 
-        ca.setRandomInitialConditions(true);
+        //ca.setRandomInitialConditions(true);
         ca.run();
     }
 
