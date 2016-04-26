@@ -2,7 +2,24 @@
 
 Though I am not a fan of the book, this program was inspired by Stephen Wolfram's, *A New Kind of Science*.
 
-Each of these 256 cellular automata evolve on a 400 x 800 px plain where each row represents a generation and the initial seed (or the progenitor) is in the center of the first row.
+Each of these 256 cellular automata evolve on a 400 x 800 pixel plain where each row represents a generation and the initial seed (or the progenitor) is in the center of the first row.
+
+Cells in generations after the first are either black or cyan depending on the color of the cell immediately above it and the two cells diagonally above it (for a total of 8 bits). 11100101
+
+E.g., for #229:
+
+| Preceding Cells  | Resulting Cell |
+| ------------- | ------------- |
+| 000  | 1  |
+| 001  | 0  |
+| 010  | 1  |
+| 011  | 0  |
+| 100  | 0  |
+| 101  | 1  |
+| 110  | 1  |
+| 111  | 1  |
+
+where 0 is black and 1 is cyan.
 
 ### #0
 ![cellular automata #0](/img/0.png?raw=true "Cellular Automata 0")
