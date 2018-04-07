@@ -21,7 +21,7 @@ E.g., for #229, 11100101:
 
 where 0 is black and 1 is cyan.
 
-The interesting thing to note, as Wolfram points out in his book, is that surprisingly complex behavior comes about from these very simple rules. See #0.
+The interesting thing to note, as Wolfram points out in his book, is that surprisingly complex behavior comes about from these very simple rules. See #30.
 
 ### [#0](#0)
 ![cellular automata #0](/img/0.png?raw=true "Cellular Automata 0")
