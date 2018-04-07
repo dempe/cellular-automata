@@ -21,7 +21,7 @@ E.g., for #229, 11100101:
 
 where 0 is black and 1 is cyan.
 
-The interesting thing to note, as Wolfram points out in his book, is that surprisingly complex and random behavior comes about from these very simple rules (e.g., [#30](https://github.com/dempe/cellular-automata/blob/master/README.md#30)).
+The interesting thing to note, as Wolfram points out in his book, is that surprisingly complex and seemingly random behavior comes about from these very simple rules (e.g., [#30](https://github.com/dempe/cellular-automata/blob/master/README.md#30)).
 
 ### [#0](#0)
 ![cellular automata #0](/img/0.png?raw=true "Cellular Automata 0")
