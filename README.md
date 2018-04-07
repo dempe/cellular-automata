@@ -1,6 +1,6 @@
 # cellular-automata
 
-Though I am not a fan of the book, this program was inspired by Stephen Wolfram's, *A New Kind of Science*.
+Though I am not really a fan of the book, this program was inspired by Stephen Wolfram's, *A New Kind of Science*.
 
 Each of these 256 cellular automata evolve on a 400 x 800 pixel plain where each row represents a generation and the initial seed (or the progenitor) is in the center of the first row.
 
@@ -21,7 +21,9 @@ E.g., for #229, 11100101:
 
 where 0 is black and 1 is cyan.
 
-### #0
+The interesting thing to note, as Wolfram points out in his book, is that surprisingly complex behavior comes about from these very simple rules. See #0.
+
+### [#0](#0)
 ![cellular automata #0](/img/0.png?raw=true "Cellular Automata 0")
 ### #1
 ![cellular automata #1](/img/1.png?raw=true "Cellular Automata 1")
