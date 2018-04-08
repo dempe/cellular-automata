@@ -4,7 +4,7 @@ Though I am not really a fan of the book, this program was inspired by Stephen W
 
 Each of these 256 cellular automata evolve on a 400 x 800 pixel plane where each row represents a generation and the initial seed (or the progenitor) is in the center of the first row.
 
-Cells in generations after the first are either black or cyan depending on the color of the cell immediately above it and the two cells diagonally above it (for a total of 8 bits).
+Cells in generations after the first are either black or cyan depending on the color of the cell immediately above it and the two cells diagonally above it (for a total of 8 bits). In other words, you can think of each cell being the product of 3 parents.
 
 E.g., for [#229](https://github.com/dempe/cellular-automata/blob/master/README.md#229), 11100101:
 
