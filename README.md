@@ -6,7 +6,7 @@ Each of these 256 cellular automata evolve on a 400 x 800 pixel plane where each
 
 Cells in generations after the first are either black or cyan depending on the color of the cell immediately above it and the two cells diagonally above it (for a total of 8 bits).
 
-E.g., for #229, 11100101:
+E.g., for [#229](https://github.com/dempe/cellular-automata/blob/master/README.md#229), 11100101:
 
 | Preceding Cells  | Resulting Cell |
 | ------------- | ------------- |
